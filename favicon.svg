@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #5faef1;
+      }
+
+      .cls-1 {
+        stroke-width: 42px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 28px;
+      }
+
+      .cls-3 {
+        stroke: #ee931b;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M124,508V316s0-128,128-128S380,316,380,316"/>
+  <path class="cls-1" d="M380,444s0,128,128,128S636,444,636,444V252"/>
+  <path class="cls-1" d="M380,316V444"/>
+  <path class="cls-2" d="M188,380s32.079,9,64,9,64-9,64-9"/>
+  <path id="Shape_4_copy" data-name="Shape 4 copy" class="cls-3" d="M444,380s32.079-9,64-9,64,9,64,9"/>
+</svg>
