@@ -1,0 +1,24 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+  role="img"
+  aria-label="Aurevia"
+>
+  <rect width="512" height="512" fill="#176b5b" />
+
+  <circle cx="256" cy="256" r="190" fill="#176b5b" />
+
+  <path
+    d="M256 367s-108-62-108-141c0-43 30-72 68-72 21 0 37 10 47 26 11-16 27-26 48-26 38 0 68 29 68 72 0 79-123 141-123 141Z"
+    fill="#fff"
+  />
+
+  <path
+    d="M158 257h57l18-37 32 77 22-47 15 31h53"
+    fill="none"
+    stroke="#65bca5"
+    stroke-width="19"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
