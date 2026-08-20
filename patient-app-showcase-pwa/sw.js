@@ -1,11 +1,11 @@
 const CACHE_NAME = "aurevia-demo-v1";
 
 const APP_SHELL = [
-  "/",
-  "/index.html",
-  "/manifest.webmanifest",
-  "/icons/icon.svg",
-  "/icons/icon-maskable.svg",
+  "./",
+  "./index.html",
+  "./manifest.webmanifest",
+  "./icons/icon.svg",
+  "./icons/icon-maskable.svg",
 ];
 
 self.addEventListener("install", (event) => {
@@ -44,11 +44,11 @@ self.addEventListener("fetch", (event) => {
 
           caches
             .open(CACHE_NAME)
-            .then((cache) => cache.put("/index.html", cachedResponse));
+            .then((cache) => cache.put("./index.html", cachedResponse));
 
           return response;
         })
-        .catch(() => caches.match("/index.html")),
+        .catch(() => caches.match("./index.html")),
     );
 
     return;
